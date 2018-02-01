@@ -7,6 +7,7 @@
 
 import scrapy
 
+
 class HotSpot(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
